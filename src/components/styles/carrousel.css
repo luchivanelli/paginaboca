@@ -1,0 +1,46 @@
+.carrousel-container {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.sede-carrousel-title {
+    text-align: center;
+    margin: 30px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--yellow);
+}
+
+.carrousel {
+    margin: 10px auto 0;
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 350px;
+    max-height: 320px;
+}
+
+.carrousel-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    padding: 0 20px;
+}
+
+.carrousel-container span {
+    margin: 10px 0 0;
+}
+
+@media screen and (min-width: 768px) {
+    .carrousel-container {
+        width: 400px;
+    }
+
+    .carrousel-img img {
+        height: 300px;
+    }
+
+    .carrousel-viajes img {
+        height: 180px;
+    }
+}

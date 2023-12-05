@@ -1,25 +1,52 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css'
+import { useState } from 'react'
+import Header from "./components/Header"
+import Home from "./components/Home"
+import LaPeña from './components/LaPeña'
+import Sede from './components/Sede'
+import Viajes from './components/Viajes'
+import Jornadas from './components/Jornadas'
+import Socio from './components/Socio'
+import Footer from './components/Footer'
+import Loader from './components/Loader'
+import { IconArrowBigUp } from '@tabler/icons-react';
 
-function App() {
+const Button = ()=> {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <a href='#header' className='button'><IconArrowBigUp/></a>
+  )
 }
 
-export default App;
+const App = () => {
+  const [state, setState] = useState(true)
+  
+  const componentsRender = ()=> {
+    setTimeout(()=> {
+      setState(false)
+    }, 3000)
+  }
+
+  componentsRender()
+
+  if (state) {
+    return (
+      <Loader/>
+    )
+  } else {
+  return (
+    <div className="app">
+      <Header />
+      <Home />
+      <LaPeña />
+      <Sede />
+      <Viajes />
+      <Jornadas />
+      <Socio />
+      <Footer />
+      <Button />
+    </div>
+  )}
+}
+
+export default App
+
