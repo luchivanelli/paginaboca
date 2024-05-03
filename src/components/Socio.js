@@ -37,6 +37,7 @@ const Socio = () => {
       </div>
       <div className='socio-peña'>
         <h4>Socio de la peña</h4>
+        <p>El Socio podrá contar con los siguientes beneficios y/o derechos: Utilización de las instalaciones, tanto para ver los partidos y/o demás jornadas, sin costo, una vez inaugurada la Sede Social, Sorteos mensuales por camisetas, entradas y demás premios, prioridad en el colectivo y gestiones en conjunto con el Departamento Interior del Club Atlético Boca Juniors, prioridad de carnets para viajar a la cancha, etc. Los Socios estarán obligados a cumplir y respetar el Estatuto de nuestra Institución y el reglamento general.</p>
         <p>Para formar parte de la asociación, se deberá completar el siguiente formulario:</p>
         <form className='socio-peña-formulario' onSubmit={formik.handleSubmit}>
             <div className='socio-peña-formulario-div'>

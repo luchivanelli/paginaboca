@@ -3,16 +3,16 @@ import Carrousel2 from './Carrousel2'
 import ToggleModal2 from './ToggleModal2'
 import './styles/modal.css'
 
-import img19 from '../images/obra32.jpg'
-import img20 from '../images/obra33.jpg'
-import img21 from '../images/obra34.jpg'
-import img22 from '../images/obra35.jpg'
-import img23 from '../images/obra36.jpg'
-import img24 from '../images/obra38.jpg'
-import img25 from '../images/obra39.jpg'
-import img26 from '../images/obra31.jpg'
+import img18 from '../images/obra40.jpeg'
+import img19 from '../images/obra41.jpeg'
+import img20 from '../images/obra42.jpeg'
+import img21 from '../images/obra43.jpeg'
+import img22 from '../images/obra44.jpeg'
+import img23 from '../images/obra45.jpeg'
+import img24 from '../images/obra46.jpeg'
+import img26 from '../images/obra48.jpeg'
 
-const actual = [img19, img20, img21, img22, img23 ,img24, img25, img26]
+const actual = [img18, img19, img20, img21, img22, img23, img24, img26]
 
 const ModalActual = ({modalActual}) => {
   return (
