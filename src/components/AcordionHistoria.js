@@ -96,7 +96,7 @@ const AcordionHistoria = ()=>  {
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="14" className='acordion-historia-item'>
-        <Accordion.Header>2023 (Actualidad)</Accordion.Header>
+        <Accordion.Header>2023 / 2024 (Actualidad)</Accordion.Header>
         <Accordion.Body className='acordion-historia-info'>
             El 2023 fue tremendo, se avanzó un montón, hasta casi casi tenemos la sede terminada. Ya con el material de frente con los colores xeneizes, interior pintado, con luces, cielorrazo terminado en todas las áreas. Sector cocina con alacena terminada, sillas en su totalidad comprada, los aires acondicionados en cada sector instalados, entre varias cosas más. Quedando en suspenso todo lo que es murales y demás terminaciones, compras de herramientas, y artículos para cocina entre otros. Una vez terminada la sede, se vienen otros proyectos muy lindos a futuro, la escuelita de fútbol es un sueño de todos.
             <br/>Siempre decimos y pedimos que la peña esté activa de por vida, que todo sea persistentemente. Por eso invitamos más que nunca a la juventud para integrarse porque esto sigue. AGUANTE BOCA Y SU GENTE, AGUANTE LA PEÑA!
